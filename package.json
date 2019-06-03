@@ -1,11 +1,15 @@
 {
   "name": "vue-lion",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "An UI library for Vue2.x",
+  "keyword": "vue ui components library",
+  "author": "Chasen Gao",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-fast-signature --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
