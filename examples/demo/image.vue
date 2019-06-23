@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: "li-button"
+        name: "image"
     }
 </script>
 
